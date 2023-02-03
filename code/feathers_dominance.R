@@ -8,7 +8,7 @@ setwd("C:/Users/alexi/Google Drive (1)/Between Computers/MastersThesis_BrightPea
 ALL<-read.csv("feather_data_ALL_combined.csv")
 
 # Read in data - dominance status (normalized David's score) ####
-NormDS<-read.csv("DavidsScoreCalculation_normalized davids score values_NormDS.csv")
+NormDS<-read.csv("NormDS.csv")
 head(NormDS)
 
 # Combine data

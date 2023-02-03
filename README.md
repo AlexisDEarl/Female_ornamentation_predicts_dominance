@@ -9,3 +9,8 @@ Males often exhibit elaborate ornamentation that contributes to their fitness. S
 https://doi.org/10.1111/eth.13244
 
 Any questions or concerns can be addressed to the corresponding author Alexis D. Earl at ade2102@columbia.edu
+
+Data files:
+
+feather_data_ALL_combined.csv contains information on each individual peahen (ID, DS_Value: david's score dominance status value prior to De Vries correction, ordered rank, peahen body mass (g), and color space variables for feathers from the side, back, and front of the ornamental neck region - separately and pooled - for "lum"" i.e., brightness, hue in the UV part of the spectrum, hue in the visible RGB part of the spectrum, and chroma).
+NormDS.csv contains the "DS_Value" (dominance score) for each peahen after De Vries correction to calculate normalized David's scores and account for variation in number of interactions between dyads.
