@@ -151,6 +151,8 @@ abline(glm(NormDS~lum.avg.pooled,data=ALL_norm),col="black")
 #ALL_norm$lum.avg.pooled<-round(ALL_norm$lum.avg.pooled,digits=2)
 ALL_norm$fit<-predict(glm(NormDS~lum.avg.pooled,data=ALL_norm))
 
+library(tidyverse)
+
 ALL_norm%>%ggplot(aes(x=lum.avg.pooled, y=NormDS)) + geom_point(size=2)+
   geom_smooth(aes(y=fit),color="black") +
   xlab("\n Feather Brightness")+
