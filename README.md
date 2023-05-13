@@ -15,3 +15,4 @@ Any questions or concerns can be addressed to the corresponding author Alexis D.
 * ```NormDS.csv``` contains the "DS_Value" (dominance score) for each peahen after De Vries correction to calculate normalized David's scores and account for variation in number of interactions between dyads.
 
 See **METHODS** for additional details [(link to manuscript)](https://doi.org/10.1111/eth.13244).
+ 
